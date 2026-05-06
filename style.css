@@ -13,8 +13,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #333;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .logo {
@@ -29,12 +28,20 @@ nav {
 }
 
 .nav-links li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s;
 }
 
 .nav-links li a:hover {
-    color: #4CAF50;
+    color: #0652e8;
+}
+
+.hero-section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
