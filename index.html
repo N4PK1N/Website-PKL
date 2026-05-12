@@ -104,5 +104,140 @@
             </div>
         </div>
     </section>
+
+    <section id="project" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Portofolio</span>
+                <h2>Proyek Terpilih</h2>
+                <p>Kumpulan karya terbaik kami dalam membantu bisnis tumbuh secara digital.</p>
+            </div>
+
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Website Development</button>
+                <button class="filter-btn" data-filter="seo">SEO</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="campaign">Digital Campaign</button>
+            </div>
+
+            <div class="portfolio-grid" id="portfolioGrid">
+
+                <div class="portfolio-item" data-category="web" data-title="Resto Branding" data-year="Januari 2026" data-desc="Pembuatan website modern dan responsif untuk resor bintang lima di Bali." data-img="Assets/assets/project_web1.png">
+                    <div class="portfolio-img-wrap">
+                        <img src="Assets/assets/project_web1.png" alt="Bali Resor Online">
+                        <div class="portfolio-overlay">
+                            <span class="overlay-icon">&#x2197;</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span class="portfolio-tag">Website</span>
+                        <div class="portfolio-info">
+                            <h3>Resto Branding</h3>
+                            <span class="portfolio-year">Januari 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="seo" data-title="SEO Toko Elektronik" data-year="2024" data-desc="Optimasi SEO menyeluruh yang meningkatkan trafik organik sebesar 280% dalam 4 bulan." data-img="Assets/assets/project_seo1.png">
+                    <div class="portfolio-img-wrap">
+                        <img src="Assets/assets/project_seo1.png" alt="SEO Toko Elektronik">
+                        <div class="portfolio-overlay">
+                            <span class="overlay-icon">&#x2197;</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span class="portfolio-tag">SEO</span>
+                        <div class="portfolio-info">
+                            <h3>SEO Toko Elektronik</h3>
+                            <span class="portfolio-year">2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="social" data-title="Kampanye Media Sosial" data-year="2023" data-desc="Strategi konten media sosial yang berhasil meningkatkan engagement rate 3x lipat." data-img="Assets/assets/project_social1.png">
+                    <div class="portfolio-img-wrap">
+                        <img src="Assets/assets/project_social1.png" alt="Kampanye Media Sosial">
+                        <div class="portfolio-overlay">
+                            <span class="overlay-icon">&#x2197;</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span class="portfolio-tag">Social Media</span>
+                        <div class="portfolio-info">
+                            <h3>Kampanye Media Sosial</h3>
+                            <span class="portfolio-year">2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web" data-title="Platform E-Commerce" data-year="2023" data-desc="Pengembangan platform belanja online dengan UX modern dan konversi tinggi." data-img="Assets/assets/project_web2.png">
+                    <div class="portfolio-img-wrap">
+                        <img src="Assets/assets/project_web2.png" alt="Platform E-Commerce">
+                        <div class="portfolio-overlay">
+                            <span class="overlay-icon">&#x2197;</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span class="portfolio-tag">Website</span>
+                        <div class="portfolio-info">
+                            <h3>Platform E-Commerce</h3>
+                            <span class="portfolio-year">2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="campaign" data-title="Digital Campaign Kuliner" data-year="2023" data-desc="Kampanye iklan digital multi-platform yang menghasilkan 500+ leads dalam sebulan." data-img="Assets/assets/project_campaign1.png">
+                    <div class="portfolio-img-wrap">
+                        <img src="Assets/assets/project_campaign1.png" alt="Digital Campaign Kuliner">
+                        <div class="portfolio-overlay">
+                            <span class="overlay-icon">&#x2197;</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span class="portfolio-tag">Campaign</span>
+                        <div class="portfolio-info">
+                            <h3>Digital Campaign Kuliner</h3>
+                            <span class="portfolio-year">2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="seo" data-title="SEO Hotel Butik" data-year="2022" data-desc="Peningkatan peringkat Google halaman 1 untuk 40+ kata kunci kompetitif industri hospitality." data-img="Assets/assets/project_seo2.png">
+                    <div class="portfolio-img-wrap">
+                        <img src="Assets/assets/project_seo2.png" alt="SEO Hotel Butik">
+                        <div class="portfolio-overlay">
+                            <span class="overlay-icon">&#x2197;</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span class="portfolio-tag">SEO</span>
+                        <div class="portfolio-info">
+                            <h3>SEO Hotel Butik</h3>
+                            <span class="portfolio-year">2022</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project Preview">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+        <div class="lightbox-inner">
+            <div class="lightbox-img-wrap">
+                <img src="" alt="" id="lightboxImg">
+            </div>
+            <div class="lightbox-details">
+                <span class="lightbox-tag" id="lightboxTag"></span>
+                <h3 id="lightboxTitle"></h3>
+                <span class="lightbox-year" id="lightboxYear"></span>
+                <p id="lightboxDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
